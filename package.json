@@ -1,8 +1,11 @@
 {
   "name": "transcoder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transcoder the command line audio / video transcoder tool",
   "main": "index.js",
+  "bin": {
+    "transcoder": "./bin/transcoder"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,3 +32,4 @@
   },
   "homepage": "https://github.com/active9/transcoder"
 }
+
