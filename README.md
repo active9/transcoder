@@ -1,7 +1,7 @@
 #Transcoder
 ![Transcoder](https://raw.githubusercontent.com/active9/transcoder/master/transcoder.png)
 
-Trancdoer the command line audio / video transcoder tool
+Transcoder the command line audio / video transcoder tool
 
 ##Introduction
 Transcoder is a FFmpeg powered command line transcoding tool. It allows you to convert audio and video files between many formats.
