@@ -1,6 +1,6 @@
 {
   "name": "transcoder",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Transcoder the command line audio / video transcoder tool",
   "main": "index.js",
   "bin": {
@@ -17,8 +17,8 @@
     "ffmpeg"
   ],
   "dependencies": {
-    "commander": "*",
-    "fluent-ffmpeg": "*"
+    "commander": "^2.9.0",
+    "fluent-ffmpeg": "^1.7.2"
   },
   "author": "Active 9 LLC.",
   "license": "MIT",
