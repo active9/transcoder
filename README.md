@@ -37,6 +37,28 @@ transcoder /path/to/audio.wav /path/to/audio.aiff
 
 This will convert audio.wav to audio.aiff.
 
+##OPTIONS
+
+Transcoder accepts command line options to control some of the transcoding process. transcoder --help will show all available options however, they are as follows:
+
+-f --format [format] container format (mp4)
+-c --codec [codec] video codec (libx264)
+-a --acodec [acodec] audio codec (aac)
+-s --size [size] video dimensions (320x240)
+
+Converting an mp4 to 320x240 in size:
+
+```bash
+transcoder input.mp4 output.mp4 --size 320x240
+```
+
+Options may also be combined:
+
+```bash
+transcoder input.mp4 output.mp4 --size 320x240 --format mov
+```
+
+
 ##CONTRIBUTING
 
 We encourage forking. Feel free to fork & pull your new additions, or bug fixes.
