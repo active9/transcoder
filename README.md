@@ -41,10 +41,15 @@ This will convert audio.wav to audio.aiff.
 
 Transcoder accepts command line options to control some of the transcoding process. transcoder --help will show all available options however, they are as follows:
 
--f --format [format] container format (mp4)
--c --codec [codec] video codec (libx264)
--a --acodec [acodec] audio codec (aac)
--s --size [size] video dimensions (320x240)
+ - -f --format [format] container format (mp4)
+ - -c --codec [codec] video codec (libx264)
+ - -a --acodec [acodec] audio codec (aac)
+ - -s --size [size] video dimensions (320x240)
+ - -p --fps [fps] output frames per second (29.7)
+ - -i --ifps [ifps] input frames per second (29.7)
+ - -n --native [native] read input at native frames per second
+ - -x --noaudio [noaudio] disables the output audio track
+ - -v --novideo [novideo] disables the output video track
 
 Converting an mp4 to 320x240 in size:
 
@@ -66,3 +71,4 @@ We encourage forking. Feel free to fork & pull your new additions, or bug fixes.
 ##LICENSE
 
 MIT
+
